@@ -1,3 +1,8 @@
+import { Text } from '@chakra-ui/react';
 export const Header = () => {
-  return <header>Crabe Code</header>;
+  return (
+    <header>
+      <Text>Crabe Code</Text>
+    </header>
+  );
 };
