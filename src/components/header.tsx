@@ -1,8 +1,8 @@
-import { Text } from '@chakra-ui/react';
+import { Box, Text } from '@chakra-ui/react';
 export const Header = () => {
   return (
-    <header>
-      <Text>Crabe Code</Text>
-    </header>
+    <Box w={"100%"} color='black'>
+      <Text fontSize={'3xl'}>Crabe Code</Text>
+    </Box>
   );
 };
