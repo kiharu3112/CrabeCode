@@ -34,11 +34,11 @@ export const AceRubyEditor = memo<Props>((props) => {
       `}
       </style>
       <AceEditor
-        mode='ruby'
-        theme='xcode'
+        mode="ruby"
+        theme="xcode"
         onChange={handleChange}
-        width='100%'
-        name='ace-editor'
+        width="100%"
+        name="ace-editor"
         editorProps={{ $blockScrolling: false }}
         value={props.code}
         showGutter={true}
