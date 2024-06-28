@@ -27,8 +27,8 @@ importers:
         specifier: ^18.2.0
         version: 18.3.1
       react-ace:
-        specifier: ^11.0.1
-        version: 11.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^12.0.0
+        version: 12.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react-dom:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
@@ -1554,8 +1554,8 @@ packages:
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
-  react-ace@11.0.1:
-    resolution: {integrity: sha512-ulk2851Fx2j59AAahZHTe7rmQ5bITW1xytskAt11F8dv3rPLtdwBXCyT2qSbRnJvOq8UpuAhWO4/JhKGqQBEDA==}
+  react-ace@12.0.0:
+    resolution: {integrity: sha512-PstU6CSMfYIJknb4su2Fa0WgLXzq2ufQgR6fjcSWuGT1hGTHkBzuKw+SncV8PuLCdSJBJc1VehPhyeXlWByG/g==}
     peerDependencies:
       react: ^0.13.0 || ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0
       react-dom: ^0.13.0 || ^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0
@@ -3447,7 +3447,7 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  react-ace@11.0.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  react-ace@12.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       ace-builds: 1.33.1
       diff-match-patch: 1.0.5
