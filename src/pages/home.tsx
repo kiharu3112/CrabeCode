@@ -10,9 +10,11 @@ puts "Hello, World"
 `);
   const [compileId, setCompileId] = useState<string | undefined>(undefined);
 
+  const kanicc = 'https://kanicc.poporon.org'
+
   const Submit = async () => {
     console.log('Fire🔥');
-    const res = await fetch('https://ceres.epi.it.matsue-ct.ac.jp/compile/code', {
+    const res = await fetch(`${kanicc}/compile/code`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -25,12 +27,12 @@ puts "Hello, World"
     }
     const json = await res.json();
     // 新しいタブでリンクを開く
-    window.open(`https://ceres.epi.it.matsue-ct.ac.jp/writer?id=${json.id}`, '_blank');
+    window.open(`${kanicc}/writer?id=${json.id}`, '_blank');
   };
 
   const FetchCode = async () => {
     console.log('Fire🔥');
-    const res = await fetch(`https://ceres.epi.it.matsue-ct.ac.jp/compile/code/${compileId}`, {
+    const res = await fetch(`${kanicc}/compile/code/${compileId}`, {
       method: 'GET',
     });
     if (!res.ok) {
