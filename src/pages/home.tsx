@@ -14,7 +14,7 @@ puts "Hello, World"
 
   const Submit = async () => {
     console.log('Fire🔥');
-    const res = await fetch(`${kanicc}/compile/code`, {
+    const res = await fetch(`${kanicc}/code`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
