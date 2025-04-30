@@ -59,7 +59,7 @@ importers:
         version: 4.6.2(eslint@9.18.0)
       eslint-plugin-react-refresh:
         specifier: ^0.4.6
-        version: 0.4.18(eslint@9.18.0)
+        version: 0.4.20(eslint@9.18.0)
       prettier:
         specifier: 3.4.2
         version: 3.4.2
@@ -840,8 +840,8 @@ packages:
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
 
-  eslint-plugin-react-refresh@0.4.18:
-    resolution: {integrity: sha512-IRGEoFn3OKalm3hjfolEWGqoF/jPqeEYFp+C8B0WMzwGwBMvlRDQd06kghDhF0C61uJ6WfSDhEZE/sAQjduKgw==}
+  eslint-plugin-react-refresh@0.4.20:
+    resolution: {integrity: sha512-XpbHQ2q5gUF8BGOX4dHe+71qoirYMhApEPZ7sfhF/dNnOF1UXnCMGZf79SFTBO7Bz5YEIT4TMieSlJBWhP9WBA==}
     peerDependencies:
       eslint: '>=8.40'
 
@@ -2162,7 +2162,7 @@ snapshots:
     dependencies:
       eslint: 9.18.0
 
-  eslint-plugin-react-refresh@0.4.18(eslint@9.18.0):
+  eslint-plugin-react-refresh@0.4.20(eslint@9.18.0):
     dependencies:
       eslint: 9.18.0
 
